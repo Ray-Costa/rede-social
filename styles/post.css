@@ -1,0 +1,36 @@
+
+.post-descricao {
+    font-size: 15px;
+    color: grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100ch;
+    padding-top: 25px;
+}
+.post-botao {
+    background-color: var(--color-grey-2);
+    height: 35px;
+    width: 95px;
+    border-radius: var(--radius-1);
+    color: var(--color-white-fixed);
+    cursor: pointer;
+    margin-top: 30px;
+}
+.post-botao:hover {
+    background-color: var(--color-grey-1);
+}
+.post-h1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 17px;
+}
+.post-ul{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 40px;
+}
+

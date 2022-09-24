@@ -1,0 +1,52 @@
+.modal-button {
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border: none;
+    background: var(--color-grey-4);
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+
+.section-modal {
+    gap: 36px;
+    position: fixed;
+    padding: 0;
+    z-index: 1;
+    max-width: 550px;
+    min-height: 312px;
+    left: 27%;
+    top: 15%;
+    border-radius: 8px;
+    text-align: justify;
+
+}
+
+.modal-descricao {
+    font-size: 15px;
+    color: grey;
+    padding-top: 25px;
+    line-height: 2;
+
+
+}
+
+.nome-profissao {
+    display: flex;
+    flex-flow: column;
+
+
+}
+
+.armazenando-botao {
+    padding: 0;
+    width: 36px;
+    padding-left: 90%;
+
+}

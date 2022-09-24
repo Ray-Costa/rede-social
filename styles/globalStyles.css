@@ -8,17 +8,26 @@
 
 :root{
     --color-grey-1: #212529;
-    --color-grey-2: #495057;
+    --color-grey-2:rgb(50, 49, 49);
+    --color-grey-3: #495057;
     --color-white-fixed: #ffffff;
+    --color-button-1: #364FC7;
+    --color-button-2: #4263EB;
+    --color-button-3: #ffffff;
     --radius-1: 0.25rem;
     --font-family-1: "Inter", sans-serif;
+    --border-radius-2: 2px;
+    --border-radius-5: 5px;
+    --border-radius-8: 8px;
+    
+
 }
 
 body{
     font-family: var(--font-family-1);
 }
 
-.container{
+.menu-container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;

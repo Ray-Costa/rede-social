@@ -1,18 +1,22 @@
 .navbar{
     background-color: var(--color-grey-1);
     padding: 1.75rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 32px 0;  
 }
-
 .navbar-items{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-right: 20px;   
 }
-
 .navbar-links{
     display: flex;
     gap: 1rem;
 }
-
 .navbar-link{
     background-color: transparent;
     color: var(--color-white-fixed);
@@ -24,7 +28,6 @@
     font-weight: 400;
     cursor: pointer;
 }
-
 .navbar-link:hover, .navbar-link.actived{
     background-color: var(--color-grey-2);
 }

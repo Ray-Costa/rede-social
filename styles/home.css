@@ -1,0 +1,85 @@
+@media only screen and (max-width: 900px) {
+    .home-main {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .container {
+        display: flex !important;
+        flex-flow: column !important;
+        flex-wrap: wrap-reverse;
+    }
+
+    .container-aside {
+        position: inherit !important;
+        width: 100% !important;
+    }
+
+    .section-modal {
+        width: 90% !important;
+        left: 5% !important;
+        align-items: center !important;
+    }
+}
+
+.modal-li {
+    background-color: #FFF;
+}
+.home-header {
+    height: 20vh;
+}
+.home-main {
+    width: 55%;
+    padding-left: 100px;
+}
+.home-section {
+    width: 420px;
+    height: 306px;
+}
+.home-section-img {
+    height: 80px;
+    width: 80px;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+
+.home-section-div {
+    display: flex;
+    align-items: center;
+}
+
+.home-section-div-nome-profissao {
+    padding-top: 0;
+    padding-left: 5px;
+
+}
+.home-section-div-input {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.home-section-div-btn {
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+.button-postar {
+    background-color: var(--color-button-2);
+    border: none;
+    height: 25px;
+    width: 50px;
+    border-radius: var(--radius-1);
+    color: var(--color-white-fixed);
+    cursor: pointer;
+}
+.home-section-resumo {
+    height: 50px;
+}
+.button-postar:hover {
+    background-color: var(--color-button-1);
+
+}
