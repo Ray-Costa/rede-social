@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/styles/globalStyles.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="/styles/sizes.css">
+        <link rel="stylesheet" href="/styles/navbar.css">
+        <link rel="stylesheet" href="/styles/home.css">
+        <link rel="stylesheet" href="/styles/container.css">
+        <link rel="stylesheet" href="/styles/post.css">
+        <link rel="stylesheet" href="/styles/modal.css">
+        <link rel="stylesheet" href="/styles/position.css">
+
+        <title>TechPosters - Home</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="">
+                <div class="navbar-items">
+                    <img src="../../assets/img/logo.svg" alt="Logotipo" title="Logotipo" class="menu-logo"/>
+                    <ul class="navbar-links">
+                        <li>
+                            <a href="" class="navbar-link">Sair</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="home-header"></header>
+
+        <div class="container" id="container">
+            <main class="home-main">
+                <section class="home-section">
+                    <div class="home-section-div">
+                        <img src="../../assets/img/user1.svg" alt="" class="home-section-img">
+                        <div class="home-section-div-nome-profissao">
+                            <h3 class="home-section-nome">Samuel Leão</h3>
+                            <p class="home-section-formacao">Front end Enginer</p>
+
+                        </div>
+
+                    </div>
+                    <div id="id-input" class="home-section-div-input">
+                        <input placeholder="Digitar título do post" type="text" class="home-section-resumo"/>
+                        <textarea placeholder="Digitar descrição do post" name="" id="" cols="6" rows="6"></textarea>
+                        <div class="home-section-div-btn">
+                            <button id="id-button-postar" class="button-postar">Postar</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h1 class="post-h1">Posts</h1>
+                    <ul class="post-ul" id="posts"></ul>
+                </section>
+
+                <section id="modal-section" class="section-modal">
+
+                    <ul class="modal-ul" id="modal"></ul>
+
+                </section>
+
+            </main>
+
+
+            <aside id="container-aside" class="container-aside">
+
+                <p class="titulo-1">Sugestões para você seguir</p>
+                <div class="container-div">
+                    <section class="container-section">
+                        <div class="container-div-div">
+                            <ul class="container-ul">
+                                <li class="container-li">
+                                    <div class="container-div-img-nome">
+                                        <div>
+                                            <img src="../../assets/img/user3.svg" alt="" class="container-img">
+                                        </div>
+                                        <div class="container-li-div-div">
+                                            <h3 class="container-nome">Samuel Leão</h3>
+                                            <p class="container-formacao">Front end Enginer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="container-btn">
+                                        <button class="btn-seguir">Seguir</button>
+                                    </div>
+
+                                </li>
+                                <li class="container-li">
+                                    <div class="container-div-img-nome">
+                                        <div>
+                                            <img src="../../assets/img/user6.svg" alt="" class="container-img">
+                                        </div>
+                                        <div class="container-li-div-div">
+                                            <h3 class="container-nome">Larissa Camargo</h3>
+                                            <p class="container-formacao">UI Developer</p>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="container-btn">
+                                        <button class="btn-seguir">Seguir</button>
+                                    </div>
+                                </li>
+                                <li class="container-li">
+                                    <div class="container-div-img-nome">
+                                        <div>
+                                            <img src="../../assets/img/user7.svg" alt="" class="container-img">
+                                        </div>
+                                        <div class="container-li-div-div">
+                                            <h3 class="container-nome">Filipe Gutierry</h3>
+                                            <p class="container-formacao">Full Stack Developer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="container-btn">
+                                        <button class="btn-seguir">Seguir</button>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </section>
+
+                </aside>
+
+
+            </div>
+
+
+        </body>
+        <script src="/script/database/users.js"></script>
+        <script src="/script/database/posts.js"></script>
+        <script src="/script/database/sugestUsers.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
