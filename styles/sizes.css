@@ -1,47 +1,57 @@
-.width-full{
-    width: 100%; /*O 100% faz ocupar todo o espaço que tiver no pai dele*/
+.width-full {
+    width: 100%;
+    /*O 100% faz ocupar todo o espaço que tiver no pai dele*/
 }
-.heigth-80{
+
+.heigth-80 {
     height: 80px;
 }
-.width-80{
+
+.width-80 {
     width: 80px;
 }
-.padding-top-7{
-    padding-top: 7px;
-}
-.padding-left-20{
+
+.padding-left-20 {
     padding-left: 20px;
 }
-.font-size-17{
+
+.font-size-17 {
     font-size: 17px;
 }
-.padding-rigth-5{
+
+.padding-rigth-5 {
     padding-right: 5px;
 }
-.padding-top-20{
+
+.padding-top-20 {
     padding-top: 20px;
 }
-.heigth-185{
+
+.heigth-185 {
     height: 185px;
 }
-.width-70{
+
+.width-70 {
     width: 70%;
 }
-.padding-left-10{
+
+.padding-left-10 {
     padding-left: 10px;
 }
-.width-auto{
+
+.width-auto {
     width: auto;
 }
-.padding-top-0{
+
+.padding-top-0 {
     padding-top: 0;
 }
-.padding-left-5{
+
+.padding-left-5 {
     padding-left: 5px;
 
 }
-.heigth-50{
+
+.heigth-50 {
     height: 50px;
 }
-

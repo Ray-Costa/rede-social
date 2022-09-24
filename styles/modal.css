@@ -40,8 +40,7 @@
 .nome-profissao {
     display: flex;
     flex-flow: column;
-
-
+    padding-left: 5px;
 }
 
 .armazenando-botao {

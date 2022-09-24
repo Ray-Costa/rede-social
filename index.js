@@ -14,13 +14,13 @@ function createCard(user, post) {
 
 
 
-    tagImagem.classList = 'heigth-80 width-80 padding-top-7 padding-left-20 '
+    tagImagem.classList = 'heigth-80 width-80'
     tagNome.classList.add("post-nome")
     tagProfissao.classList.add("post-profissao")
     tagTitulo.classList = 'font-size-17 padding-rigth-5 padding-top-20 '
     tagDescricao.classList.add("post-descricao")
     tagBotao.classList.add("post-botao")
-    tagLi.classList = 'padding-left-20  width-auto'
+    tagLi.classList = 'width-auto'
     tagDiv.classList = 'flex items-center '
     tagDivNome.classList = 'padding-top-0 padding-left-5'
     tagDivTitulo.classList = 'heigth-185'
@@ -93,7 +93,7 @@ function criandoPostModal(users, posters) {
     
 
 
-    tagModalImagem.classList = 'heigth-80 width-80 padding-top-7 padding-left-20'
+    tagModalImagem.classList = 'heigth-80 width-80'
     tagModalNome.classList = 'post-nome'
     tagModalProfissao.classList = 'post-profissao'
     tagModalTitulo.classList = 'font-size-17 padding-rigth-5 padding-top-20 '
