@@ -44,8 +44,6 @@
 }
 
 .armazenando-botao {
-    padding: 0;
-    width: 36px;
-    padding-left: 90%;
-
+    position: absolute;
+    right: 0;
 }
