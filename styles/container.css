@@ -53,18 +53,21 @@
 
 .container-aside {
     position: fixed;
-    width: 40%;
-    right: 0;
+    right: 5%;
     display: flex;
     flex-flow: column;
+    top: 17vh;
 }
 
 .container {
     display: flex;
     flex-flow: row;
+    width: 90%;
+    margin: auto;
+    padding-top: 5vh;
 }
 
-.container-div {
+/* .container-div {
     height: 200px;
     width: 350px;
-}
+} */

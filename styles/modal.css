@@ -5,7 +5,7 @@
     justify-content: center;
     justify-content: space-between;
     border: none;
-    background: var(--color-grey-4);
+    /* background: var(--color-grey-3); */
     width: 30px;
     height: 30px;
     align-items: center;
@@ -46,4 +46,9 @@
 .armazenando-botao {
     position: absolute;
     right: 0;
+}
+
+.transparencia {
+    background: var(--color-grey-2);
+    opacity: 0.6;
 }

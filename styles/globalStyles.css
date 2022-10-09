@@ -6,10 +6,15 @@
     box-sizing: border-box;
 }
 
-:root{
+.principal {
+    margin-top: 12vh;
+}
+
+:root {
     --color-grey-1: #212529;
-    --color-grey-2:rgb(50, 49, 49);
-    --color-grey-3: #495057;
+    --color-grey-2: rgb(50, 49, 49);
+    --color-grey-4: #495057;
+    --color-grey-3: #6d6e70;
     --color-white-fixed: #ffffff;
     --color-button-1: #364FC7;
     --color-button-2: #4263EB;
@@ -19,20 +24,21 @@
     --border-radius-2: 2px;
     --border-radius-5: 5px;
     --border-radius-8: 8px;
-    
+
+
 
 }
 
-body{
+body {
     font-family: var(--font-family-1);
 }
 
-.menu-container{
+.menu-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
 }
 
-ul{
+ul {
     list-style: none;
 }

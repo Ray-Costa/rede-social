@@ -47,8 +47,14 @@ function createCard(user, post) {
 
 
     tagUl.appendChild(tagLi)
+    // const nav = document.querySelector('.navbar')
+    const container = document.getElementById('add-transparencia')
 
     tagBotao.addEventListener('click', () => {
+        // nav.classList.add("transparencia");
+        container.classList.add("transparencia");
+
+
         criandoPostModal(user, post)
 
     })
@@ -90,7 +96,7 @@ function criandoPostModal(users, posters) {
     let tagModalDescricao = document.createElement("p")
     let tagDivModalTitulo = document.createElement("div")
     let tagButtonModal = document.createElement("button")
-    
+
 
 
     tagModalImagem.classList = 'heigth-80 width-80'
@@ -99,7 +105,7 @@ function criandoPostModal(users, posters) {
     tagModalTitulo.classList = 'font-size-17 padding-rigth-5 padding-top-20 '
     tagModalDescricao.classList = 'modal-descricao'
     tagModalLi.classList = 'modal-li'
-    
+
     const idDoModal = `modal-user-${users.id}-${contPostsAbertos}`
 
     tagModalLi.id = idDoModal;
@@ -111,7 +117,7 @@ function criandoPostModal(users, posters) {
     tagButtonModal.classList = 'modal-button'
     tagButtonModal.id = 'modal-close'
     tagDivArmazenandoBotao.classList = 'armazenando-botao'
-    
+
 
     tagModalImagem.src = users.img
     tagModalImagem.alt = ""
@@ -131,18 +137,17 @@ function criandoPostModal(users, posters) {
     tagDivModalTitulo.appendChild(tagModalTitulo)
     tagDivModalTitulo.appendChild(tagModalDescricao)
     tagModalLi.appendChild(tagDivModalTitulo)
-    
+
 
     tagModalUl.appendChild(tagModalLi)
     console.log(tagModalUl)
     console.log(idDoModal)
 
     let idModal = document.getElementById(idDoModal)
+    const container = document.getElementById('add-transparencia')
     tagButtonModal.addEventListener('click', () => {
-
-    
+        container.classList.remove("transparencia");
         idModal.remove()
-  
     })
 
     return tagModalLi
